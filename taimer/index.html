@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Таймер</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Таймер</h1>
+  <div>
+    <input type="number" id="minutes" placeholder="Минуты" min="0">
+    <input type="number" id="seconds" placeholder="Секунды" min="0" max="59">
+  </div>
+  <div id="display">00:00</div>
+  <button onclick="startTimer()">Старт</button>
+  <button onclick="stopTimer()">Стоп</button>
+  <button onclick="resetTimer()">Сброс</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
